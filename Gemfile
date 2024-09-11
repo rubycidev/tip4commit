@@ -42,7 +42,6 @@ gem 'turbolinks'
 gem 'twitter-bootstrap-rails'
 gem 'uglifier'
 
-gem "ruby_ci", github: "RubyCI/ruby_ci_gem", branch: "bugfix/188183739-increase-ruby-support"
 
 group :development do
   gem 'capistrano'
@@ -76,4 +75,5 @@ group :test do
   gem 'simplecov'
   gem 'vcr'
   gem 'webmock'
+  gem "ruby_ci"
 end
